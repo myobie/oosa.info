@@ -1,1 +1,42 @@
-Hello
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Object Oriented Server Architecture</title>
+    <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.2.4/basscss.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Object Oriented Server Architecture</h1>
+    </header>
+
+    <p><a class="button" href="http://discourse.oosa.info/">Discuss OOSA</a></p>
+
+    <p>Building large systems to process web requests, work jobs, and other do
+       other things can be daunting without a plan of attack or a
+       system-of-thought. How many components to build, how to separate
+       responsibilities, and when to build small or big are questions that come up
+       over and over again. Having a framework to answer questions is a huge help and
+       keeps things consistent, especially when working on a team.</p>
+
+    <p>The best way I’ve found to describe my system-of-thought for building large
+       systems is object oriented server architecture. This means to loosely apply
+       object oriented software design principles to the macro-level of a systems
+       architecture. Basically: micro-services. The term micro-services is pretty
+       vague now-a-days, so I feel it’s important to be more specific.</p>
+
+    <p>The basics are:</p>
+
+    <ul>
+      <li>An object is a service</li>
+      <li>Build small, well-defined objects</li>
+      <li>Objects collaborate by passing messages</li>
+      <li>Modeling different problem domains for the system</li>
+      <li>Expose well-defined attributes and methods</li>
+      <li>Document and distinguish query and command methods</li>
+      <li>Objects own their data (which would include their data-store)</li>
+    </ul>
+
+    <p><a class="button" href="http://discourse.oosa.info/">Discuss OOSA</a></p>
+  </body>
+</html>
